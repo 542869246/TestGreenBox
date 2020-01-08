@@ -21,4 +21,4 @@ do
    /bin/bash ./initx.sh
 done
 
-git push
+#git push
