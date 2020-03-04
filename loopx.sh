@@ -20,3 +20,5 @@ do
 #   timedatectl set-time "$time"
    /bin/bash ./initx.sh
 done
+
+git push
