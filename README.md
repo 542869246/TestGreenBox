@@ -31,6 +31,7 @@
     
 
 ps
+
 	timedatectl set-ntp no
 	timedatectl set-timezone "Asia/Shanghai"
 	timedatectl set-time '2020-07-07 23:00:00'
