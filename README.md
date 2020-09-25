@@ -29,6 +29,18 @@
     
     screen -d -m sh loop.sh 31
     
+
+ps
+	timedatectl set-ntp no
+	timedatectl set-timezone "Asia/Shanghai"
+	timedatectl set-time '2020-07-07 23:00:00'
+
+	screen -d -m sh loop.sh 31
+
+	screen -d -m sh loopx.sh 31 '2020-01-01 23:00:00'
+	./loopx.sh 4 '2020-01-01 23:00:00'
+
+
 ## 效果
 
 ![](https://uimg.jadert.com/2019-06-12-15603212015621.jpg?imageView2/0/format/jpg/interlace/1/q/75|watermark/2/text/SmFkZQ==/font/5b6u6L2v6ZuF6buR/fontsize/720/fill/I0U5RThFOA==/dissolve/81/gravity/SouthEast/dx/10/dy/10)
